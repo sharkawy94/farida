@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Roboto-normal';
   src: url('fonts/Roboto/Roboto-Medium.ttf') format('woff2');
   font-weight: normal;
@@ -112,4 +112,23 @@ input{
 .button-animation{
 	top: 1px;
 	left: 1px;
+} */
+
+.filters{
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.filters:hover{
+	color: green;
+}
+
+#items-container{
+	margin-top: 50px;
+}
+
+.item-title{
+	margin-top: 50px;
 }

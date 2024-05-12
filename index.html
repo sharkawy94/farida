@@ -8,7 +8,7 @@
 	<script src="index.js"></script>
 </head>
 <body>
-	<div id="page">
+	<!-- <div id="page">
 		<div id="header">
 			<img id="logo" src="logo.jpeg" alt="">
 		</div>
@@ -24,9 +24,18 @@
 				<div class="input-container">
 					<input type="text">
 				</div>
-				<div class="button" onmouseup="RemoveAnimation()" onmousedown="AddAnimation()">Login</div>
+				<div class="button" onmousedown="AddAnimation()">Login</div>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="filters" onclick="renderItemsContainer({filterCriteria: 'gender', filterValue: 'Male'})">Male</div>
+	<div class="filters" onclick="renderItemsContainer({filterCriteria: 'gender', filterValue: 'Female'})">Female</div>
+	<div class="filters" onclick="renderItemsContainer({filterCriteria: 'color', filterValue: 'Green'})">Green</div>
+	<div class="filters" onclick="renderItemsContainer({filterCriteria: 'color', filterValue: 'Blue'})">Blue</div>
+	
+	<div id="items-container">
 	</div>
+	
 </body>
 </html>
